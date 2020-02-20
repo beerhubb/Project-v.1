@@ -26,6 +26,9 @@ namespace Project_v._1.Models
         [Display(Name = "เบอร์โทรศัพท์")]
         public string phone { get; set; }
 
+        [Display(Name = "ID line")]
+        public string line {get; set;}
+
         [Display(Name = "สถานที่")]
         public string location { get; set; }
 
