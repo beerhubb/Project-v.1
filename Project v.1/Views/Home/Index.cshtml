@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Project_v._1.Models.job>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h1>Index</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4 mb-4">
+                        <img src="@Html.DisplayFor(model => item.pictruejob)" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>@Html.DisplayFor(model => item.namejob)</b></h5>
+                            <p class="card-text"><b>รายละเอียด :</b> :@Html.DisplayFor(model => item.detail)</p>
+                            <p class="card-text"><small class="text-muted">ราคางาน :@Html.DisplayFor(model => item.price)</small></p>
+                            @Html.ActionLink("รายละเอียด", "Details", new { id = item._id })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
