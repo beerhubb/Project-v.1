@@ -137,6 +137,7 @@ namespace Project_v._1.Controllers
                 namejob = data.namejob,
                 detail = data.detail,
                 phone = data.phone,
+                line = data.line,
                 location = data.location,
                 price = data.price
             };
