@@ -69,7 +69,9 @@ namespace Project_v._1.Controllers
         {
 
             var def = Builders<job>.Update
-                        .Set(it => it.pictruejob, data.pictruejob)
+                        .Set(it => it.pictruejob1, data.pictruejob1)
+                        .Set(it => it.pictruejob2, data.pictruejob2)
+                        .Set(it => it.pictruejob3, data.pictruejob3)
                         .Set(it => it.namejob, data.namejob)
                         .Set(it => it.detail, data.detail)
                         .Set(it => it.phone, data.phone)
@@ -106,8 +108,8 @@ namespace Project_v._1.Controllers
             var item = hubCollection.Find(it => it.username == dataLogin.idname && it.password == dataLogin.pword).FirstOrDefault();
             if (item != null)
             {
-
-                return RedirectToAction("Details", new { id = item._id });
+                
+                return RedirectToAction("profile", new { id = item._id });
             }
             else
             {
@@ -133,7 +135,9 @@ namespace Project_v._1.Controllers
             var item = new job
             {
                 _id = Guid.NewGuid().ToString(),
-                pictruejob = data.pictruejob,
+                pictruejob1 = data.pictruejob1,
+                pictruejob2 = data.pictruejob2,
+                pictruejob3 = data.pictruejob3,
                 namejob = data.namejob,
                 detail = data.detail,
                 phone = data.phone,
@@ -145,5 +149,18 @@ namespace Project_v._1.Controllers
 
             return RedirectToAction("Index");
         }
+        public IActionResult profile(string id)
+        {
+            var item = hubCollection.Find(it => it._id == id).ToList();
+
+            return View(item);
+        }
+        public IActionResult _Layout(string id)
+        {
+            var item = hubCollection.Find(it => it._id == id).ToList();
+
+            return View(item);
+        } 
+
     }
 }

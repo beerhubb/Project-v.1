@@ -12,8 +12,14 @@ namespace Project_v._1.Models
         [BsonId]
         public string _id { get; set; }
 
-        [Display(Name = "รูปภาพงาน")]
-        public string pictruejob { get; set; }
+        [Display(Name = "รูปภาพงานที่ 1")]
+        public string pictruejob1 { get; set; }
+
+        [Display(Name = "รูปภาพงานที่ 2")]
+        public string pictruejob2 { get; set; }
+
+        [Display(Name = "รูปภาพงานที่ 3")]
+        public string pictruejob3 { get; set; }
 
         [Display(Name = "ชื่องาน")]
         [StringLength(150)]

@@ -359,3 +359,4 @@ D:\New folder (3)\Project-v.1\Project v.1\obj\Debug\netcoreapp3.1\Project v.1.Vi
 D:\New folder (3)\Project-v.1\Project v.1\obj\Debug\netcoreapp3.1\Project v.1.csproj.CopyComplete
 D:\New folder (3)\Project-v.1\Project v.1\obj\Debug\netcoreapp3.1\Project v.1.dll
 D:\New folder (3)\Project-v.1\Project v.1\obj\Debug\netcoreapp3.1\Project v.1.pdb
+C:\PROGRAM_D\งาน\Project-v.1\Project v.1\obj\Debug\netcoreapp3.1\Razor\Views\Home\profile.cshtml.g.cs

@@ -7930,19 +7930,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wawa\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder (3)\\Project-v.1\\Project v.1\\Project v.1.csproj",
+      "projectUniqueName": "C:\\PROGRAM_D\\งาน\\Project-v.1\\Project v.1\\Project v.1.csproj",
       "projectName": "Project v.1",
-      "projectPath": "D:\\New folder (3)\\Project-v.1\\Project v.1\\Project v.1.csproj",
-      "packagesPath": "C:\\Users\\wawa\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder (3)\\Project-v.1\\Project v.1\\obj\\",
+      "projectPath": "C:\\PROGRAM_D\\งาน\\Project-v.1\\Project v.1\\Project v.1.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\PROGRAM_D\\งาน\\Project-v.1\\Project v.1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
